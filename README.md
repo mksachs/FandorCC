@@ -1,4 +1,4 @@
-FandoorCC
+FandorCC
 =========
 
-Coding challenge for Fandoor.
+Coding challenge for Fandor.
