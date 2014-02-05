@@ -17,6 +17,8 @@ tmp
 _yardoc
 doc/
 
+test.rb
+
 #########################
 # .gitignore file for Xcode4 / OS X Source projects
 #
