@@ -50,7 +50,6 @@ class Tetris
         (0...@board_height).each do |row|
             index_range = row * @board_width...(row + 1) * @board_width
             if @board[index_range].reduce(:+) == @board_width
-                #index_range.each { |index| @board[index] = 0 }
                 @board[index_range] = Array.new(10, 0)
             end
         end

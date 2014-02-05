@@ -20,7 +20,7 @@ describe Tetris do
     
     describe "#play" do
         it "plays tetris by placing 'quit_after' shapes then  it prints out the board" do
-            @tg.play(13)
+            @tg.play(22)
         end
     end
     
