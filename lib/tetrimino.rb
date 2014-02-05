@@ -30,7 +30,7 @@ class TetriminoO < Tetrimino
             root,
             (root + 1) % @game_board_size,
             (root + @game_board_width) % @game_board_size,
-            (root + @game_board_width + 1) % @game_board_size
+            (root + 1 + @game_board_width) % @game_board_size
         ]
     end
 end
