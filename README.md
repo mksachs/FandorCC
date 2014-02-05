@@ -60,20 +60,10 @@ rspec spec/tetris_spec.rb
 
 To run a game:
 
+'''ruby
 require_relative "lib/tetris.rb"
 tg = Tetris.new
 # Will drop 13 blocks and then stop and print out the board. The game will never
 # lose as currently designed.
 tg.play(13)
-
-A trivial implementation of this would be:
-
-board = Array.new(10,0)
-while playing
-    board.each_index { |index| board[index] = board[index+1] = 1 if index%2 == 0 }
-    board.fill(0)
-end
-
- simply to loop through a 10 element
-array, for every even array index, set that index and the next index to
-occupied, set the array back to zero when we get to the end.
+'''
