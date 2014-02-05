@@ -60,10 +60,10 @@ rspec spec/tetris_spec.rb
 
 To run a game:
 
-'''ruby
+```ruby
 require_relative "lib/tetris.rb"
 tg = Tetris.new
 # Will drop 13 blocks and then stop and print out the board. The game will never
 # lose as currently designed.
 tg.play(13)
-'''
+```
